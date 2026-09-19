@@ -1,0 +1,246 @@
+[
+  {
+    "nodeId": "164:1176",
+    "originalPublicPath": "/media/home/hero-gradient.png",
+    "sourcePath": "design-assets/media/home/hero-gradient.png",
+    "publicPath": "/media/home/hero-gradient.webp"
+  },
+  {
+    "nodeId": "164:1195",
+    "originalPublicPath": "/media/home/nav-cloud.png",
+    "sourcePath": "design-assets/media/home/nav-cloud.png",
+    "publicPath": "/media/home/nav-cloud.webp"
+  },
+  {
+    "nodeId": "237:12655",
+    "originalPublicPath": "/media/home/nav-mobile.png",
+    "sourcePath": "design-assets/media/home/nav-mobile.png",
+    "publicPath": "/media/home/nav-mobile.webp"
+  },
+  {
+    "nodeId": "164:1309",
+    "originalPublicPath": "/media/projects/category-web-ministry.png",
+    "sourcePath": "design-assets/media/projects/category-web-ministry.png",
+    "publicPath": "/media/projects/category-web-ministry.webp"
+  },
+  {
+    "nodeId": "164:1315",
+    "originalPublicPath": "/media/projects/category-web-volna.png",
+    "sourcePath": "design-assets/media/projects/category-web-volna.png",
+    "publicPath": "/media/projects/category-web-volna.webp"
+  },
+  {
+    "nodeId": "186:250",
+    "originalPublicPath": "/media/projects/volna-first.jpeg",
+    "sourcePath": "design-assets/media/projects/volna-first.jpeg",
+    "publicPath": "/media/projects/volna-first.webp"
+  },
+  {
+    "nodeId": "164:1194",
+    "originalPublicPath": "/media/home/portrait.png",
+    "sourcePath": "design-assets/media/home/portrait.png",
+    "publicPath": "/media/home/portrait.webp"
+  },
+  {
+    "nodeId": "164:1223",
+    "originalPublicPath": "/media/home/signature.svg",
+    "sourcePath": "public/media/home/signature.svg",
+    "publicPath": "/media/home/signature.svg"
+  },
+  {
+    "nodeId": "164:1336",
+    "originalPublicPath": "/media/projects/special-marathon.png",
+    "sourcePath": "design-assets/media/projects/special-marathon.png",
+    "publicPath": "/media/projects/special-marathon.webp"
+  },
+  {
+    "nodeId": "164:1330",
+    "originalPublicPath": "/media/projects/special-lesson.png",
+    "sourcePath": "design-assets/media/projects/special-lesson.png",
+    "publicPath": "/media/projects/special-lesson.webp"
+  },
+  {
+    "nodeId": "169:1739",
+    "originalPublicPath": "/media/projects/product-onboarding.png",
+    "sourcePath": "design-assets/media/projects/product-onboarding.png",
+    "publicPath": "/media/projects/product-onboarding.webp"
+  },
+  {
+    "nodeId": "169:1665",
+    "originalPublicPath": "/media/projects/product-redesign.png",
+    "sourcePath": "design-assets/media/projects/product-redesign.png",
+    "publicPath": "/media/projects/product-redesign.webp"
+  },
+  {
+    "nodeId": "169:1883",
+    "originalPublicPath": "/media/projects/posters-experiments.png",
+    "sourcePath": "design-assets/media/projects/posters-experiments.png",
+    "publicPath": "/media/projects/posters-experiments.webp"
+  },
+  {
+    "nodeId": "169:1809",
+    "originalPublicPath": "/media/projects/posters-parties.png",
+    "sourcePath": "design-assets/media/projects/posters-parties.png",
+    "publicPath": "/media/projects/posters-parties.webp"
+  },
+  {
+    "nodeId": "173:2067",
+    "originalPublicPath": "/media/projects/merch-lovemachine.png",
+    "sourcePath": "design-assets/media/projects/merch-lovemachine.png",
+    "publicPath": "/media/projects/merch-lovemachine.webp"
+  },
+  {
+    "nodeId": "173:2059",
+    "originalPublicPath": "/media/projects/merch-charmer.png",
+    "sourcePath": "design-assets/media/projects/merch-charmer.png",
+    "publicPath": "/media/projects/merch-charmer.webp"
+  },
+  {
+    "nodeId": "174:2201",
+    "originalPublicPath": "/media/projects/animation-sites.png",
+    "sourcePath": "design-assets/media/projects/animation-sites.png",
+    "publicPath": "/media/projects/animation-sites.webp"
+  },
+  {
+    "nodeId": "174:2205",
+    "originalPublicPath": "/media/projects/animation-love.png",
+    "sourcePath": "design-assets/media/projects/animation-love.png",
+    "publicPath": "/media/projects/animation-love.webp"
+  },
+  {
+    "nodeId": "186:250",
+    "width": 1440,
+    "height": 893,
+    "originalPublicPath": "/media/projects/volna/186-250.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-250.jpeg",
+    "publicPath": "/media/projects/volna/186-250.webp"
+  },
+  {
+    "nodeId": "186:253",
+    "width": 1440,
+    "height": 893,
+    "originalPublicPath": "/media/projects/volna/186-253.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-253.jpeg",
+    "publicPath": "/media/projects/volna/186-253.webp"
+  },
+  {
+    "nodeId": "186:258",
+    "width": 1440,
+    "height": 893,
+    "originalPublicPath": "/media/projects/volna/186-258.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-258.jpeg",
+    "publicPath": "/media/projects/volna/186-258.webp"
+  },
+  {
+    "nodeId": "186:262",
+    "width": 1440,
+    "height": 893,
+    "originalPublicPath": "/media/projects/volna/186-262.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-262.jpeg",
+    "publicPath": "/media/projects/volna/186-262.webp"
+  },
+  {
+    "nodeId": "186:364",
+    "width": 1438,
+    "height": 891,
+    "originalPublicPath": "/media/projects/volna/186-364.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-364.jpeg",
+    "publicPath": "/media/projects/volna/186-364.webp"
+  },
+  {
+    "nodeId": "186:367",
+    "width": 1440,
+    "height": 893,
+    "originalPublicPath": "/media/projects/volna/186-367.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-367.jpeg",
+    "publicPath": "/media/projects/volna/186-367.webp"
+  },
+  {
+    "nodeId": "186:994",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-994.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-994.jpeg",
+    "publicPath": "/media/projects/volna/186-994.webp"
+  },
+  {
+    "nodeId": "186:999",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-999.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-999.jpeg",
+    "publicPath": "/media/projects/volna/186-999.webp"
+  },
+  {
+    "nodeId": "186:1420",
+    "width": 1436,
+    "height": 808,
+    "originalPublicPath": "/media/projects/volna/186-1420.png",
+    "sourcePath": "design-assets/media/projects/volna/186-1420.png",
+    "publicPath": "/media/projects/volna/186-1420.webp"
+  },
+  {
+    "nodeId": "186:1032",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1032.png",
+    "sourcePath": "design-assets/media/projects/volna/186-1032.png",
+    "publicPath": "/media/projects/volna/186-1032.webp"
+  },
+  {
+    "nodeId": "186:1327",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1327.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1327.jpeg",
+    "publicPath": "/media/projects/volna/186-1327.webp"
+  },
+  {
+    "nodeId": "186:1325",
+    "width": 1438,
+    "height": 895,
+    "originalPublicPath": "/media/projects/volna/186-1325.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1325.jpeg",
+    "publicPath": "/media/projects/volna/186-1325.webp"
+  },
+  {
+    "nodeId": "186:1314",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1314.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1314.jpeg",
+    "publicPath": "/media/projects/volna/186-1314.webp"
+  },
+  {
+    "nodeId": "186:1043",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1043.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1043.jpeg",
+    "publicPath": "/media/projects/volna/186-1043.webp"
+  },
+  {
+    "nodeId": "186:1329",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1329.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1329.jpeg",
+    "publicPath": "/media/projects/volna/186-1329.webp"
+  },
+  {
+    "nodeId": "186:1466",
+    "width": 1438,
+    "height": 892,
+    "originalPublicPath": "/media/projects/volna/186-1466.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1466.jpeg",
+    "publicPath": "/media/projects/volna/186-1466.webp"
+  },
+  {
+    "nodeId": "186:1338",
+    "width": 1438,
+    "height": 895,
+    "originalPublicPath": "/media/projects/volna/186-1338.jpeg",
+    "sourcePath": "design-assets/media/projects/volna/186-1338.jpeg",
+    "publicPath": "/media/projects/volna/186-1338.webp"
+  }
+]
