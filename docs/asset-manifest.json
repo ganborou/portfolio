@@ -1,23 +1,5 @@
 [
   {
-    "nodeId": "164:1176",
-    "originalPublicPath": "/media/home/hero-gradient.png",
-    "sourcePath": "design-assets/media/home/hero-gradient.png",
-    "publicPath": "/media/home/hero-gradient.webp"
-  },
-  {
-    "nodeId": "164:1195",
-    "originalPublicPath": "/media/home/nav-cloud.png",
-    "sourcePath": "design-assets/media/home/nav-cloud.png",
-    "publicPath": "/media/home/nav-cloud.webp"
-  },
-  {
-    "nodeId": "237:12655",
-    "originalPublicPath": "/media/home/nav-mobile.png",
-    "sourcePath": "design-assets/media/home/nav-mobile.png",
-    "publicPath": "/media/home/nav-mobile.webp"
-  },
-  {
     "nodeId": "164:1309",
     "originalPublicPath": "/media/projects/category-web-ministry.png",
     "sourcePath": "design-assets/media/projects/category-web-ministry.png",

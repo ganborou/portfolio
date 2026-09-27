@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-/** Static, procedural grain: no image requests or animation loop. */
+/** Procedural grain, animated only while visible and motion is allowed. */
 export function GradientGrain({ color = '#1e5c95' }: { color?: string }) {
   const ref = useRef<HTMLCanvasElement>(null)
 
@@ -28,20 +28,59 @@ export function GradientGrain({ color = '#1e5c95' }: { color?: string }) {
     const pattern = context.createPattern(tile, 'repeat')
     if (!pattern) return
 
+    let frame = 0
     const draw = () => {
       const scale = Math.min(window.devicePixelRatio || 1, 2)
       const width = Math.round(canvas.clientWidth * scale)
       const height = Math.round(canvas.clientHeight * scale)
-      if (canvas.width === width && canvas.height === height) return
-      canvas.width = width
-      canvas.height = height
+      if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width
+        canvas.height = height
+      }
+      // Shift the small reusable tile, keeping the gradient and its mask still.
+      pattern.setTransform(new DOMMatrix().translate((frame * 73) % 256, (frame * 151) % 256))
+      context.clearRect(0, 0, width, height)
       context.fillStyle = pattern
       context.fillRect(0, 0, width, height)
     }
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+    let visible = false
+    let animationId = 0
+    let lastFrame = 0
+    const animate = (time: number) => {
+      // 4.8 fps is 60% slower than the original 12 fps grain.
+      if (time - lastFrame >= 1000 / 4.8) {
+        frame += 1
+        draw()
+        lastFrame = time
+      }
+      animationId = requestAnimationFrame(animate)
+    }
+    const updateAnimation = () => {
+      cancelAnimationFrame(animationId)
+      if (visible && !document.hidden && !reducedMotion.matches) {
+        lastFrame = 0
+        animationId = requestAnimationFrame(animate)
+      }
+    }
+    const intersection = new IntersectionObserver(([entry]) => {
+      visible = entry.isIntersecting
+      updateAnimation()
+    })
+    intersection.observe(canvas)
+    reducedMotion.addEventListener('change', updateAnimation)
+    document.addEventListener('visibilitychange', updateAnimation)
     const observer = new ResizeObserver(draw)
     observer.observe(canvas)
     draw()
-    return () => observer.disconnect()
+    return () => {
+      observer.disconnect()
+      intersection.disconnect()
+      cancelAnimationFrame(animationId)
+      reducedMotion.removeEventListener('change', updateAnimation)
+      document.removeEventListener('visibilitychange', updateAnimation)
+    }
   }, [color])
 
   return <canvas ref={ref} className="gradient-grain" aria-hidden="true" />

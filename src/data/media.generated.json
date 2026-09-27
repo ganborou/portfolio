@@ -1,22 +1,4 @@
 {
-  "/media/home/hero-gradient.png": {
-    "src": "/media/home/hero-gradient-1440.webp",
-    "srcSet": "/media/home/hero-gradient-480.webp 480w, /media/home/hero-gradient-960.webp 960w, /media/home/hero-gradient-1440.webp 1440w",
-    "width": 1440,
-    "height": 827
-  },
-  "/media/home/nav-cloud.png": {
-    "src": "/media/home/nav-cloud-881.webp",
-    "srcSet": "/media/home/nav-cloud-480.webp 480w, /media/home/nav-cloud-881.webp 881w",
-    "width": 881,
-    "height": 1159
-  },
-  "/media/home/nav-mobile.png": {
-    "src": "/media/home/nav-mobile-393.webp",
-    "srcSet": "/media/home/nav-mobile-393.webp 393w",
-    "width": 393,
-    "height": 431
-  },
   "/media/projects/category-web-ministry.png": {
     "src": "/media/projects/category-web-ministry-443.webp",
     "srcSet": "/media/projects/category-web-ministry-443.webp 443w",

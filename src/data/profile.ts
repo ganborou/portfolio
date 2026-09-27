@@ -5,7 +5,7 @@ export const profile: {
   socials: { label: string; href: string | null }[]
 } = {
   contact: 'mailto:dzihiko07+work@gmail.com',
-  resume: null,
+  resume: '/Lavrova%20Anya%20CV.pdf',
   socials: [
     { label: 'Telegram', href: 'https://t.me/ganborou' },
     { label: 'Ig Portfolio', href: 'https://www.instagram.com/ganboroudesign/' },

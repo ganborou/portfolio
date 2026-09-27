@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { ResumeLink } from '../../components/Links'
 import { PortfolioImage } from '../../components/PortfolioImage'
 import { GradientGrain } from '../../components/GradientGrain'
 
@@ -10,11 +9,9 @@ export function HeroSection() {
     <section className="hero" aria-labelledby="hero-title">
       <GradientGrain />
       <div className="hero-inner page-container">
-        <header className="hero-header">
-          <p className="hero-role">Ведущий дизайнер</p>
+        <div className="hero-header">
           <h1 id="hero-title" className="hero-name">Лаврова<br />Аня</h1>
-          <ResumeLink className="hero-resume" />
-        </header>
+        </div>
         <div className={`portrait-reveal ${revealed ? 'is-revealed' : ''}`}>
           <button
             className="portrait-trigger"
