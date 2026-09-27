@@ -3,6 +3,7 @@ import { PageHeader, OptionalLink } from '../components/Links'
 import { projects } from '../data/projects'
 import { profile } from '../data/profile'
 import { NotFoundPage } from './NotFoundPage'
+import { PortfolioImage } from '../components/PortfolioImage'
 
 export function ProjectPage() {
   const { slug } = useParams()
@@ -20,7 +21,7 @@ export function ProjectPage() {
         {project.externalUrl && <a href={project.externalUrl} className="text-link resume-link case-external">Смотреть сайт →</a>}
       </div>
       <div className="case-gallery" aria-label="Материалы проекта">
-        {project.images.map((image, index) => <img
+        {project.images.map((image, index) => <PortfolioImage
           key={image.src} src={image.src} alt={image.alt} width={image.width} height={image.height}
           loading={index === 0 ? 'eager' : 'lazy'} decoding="async"
         />)}

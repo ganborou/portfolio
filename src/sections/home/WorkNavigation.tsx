@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router'
 import { categories } from '../../data/categories'
 import type { CategoryId } from '../../types/portfolio'
+import { GradientGrain } from '../../components/GradientGrain'
 
 export function WorkNavigation() {
   const [active, setActive] = useState<CategoryId>('special-projects')
@@ -9,10 +10,9 @@ export function WorkNavigation() {
     <nav id="work" aria-label="Направления работ" className={`work-navigation active-${active}`}>
       <h2 className="sr-only">Избранные работы</h2>
       <div className="work-scene">
-        <picture className="work-cloud" aria-hidden="true">
-          <source media="(max-width: 767px)" srcSet="/media/home/nav-mobile.png" />
-          <img src="/media/home/nav-cloud.png" alt="" width="881" height="1159" loading="lazy" />
-        </picture>
+        <div className="work-cloud" aria-hidden="true">
+          <GradientGrain color="#83dce9" />
+        </div>
         <ul className="work-links">
           {categories.map(({ id, title }) => (
             <li key={id} className={`work-item work-${id}`}>

@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router'
 import { PageHeader } from '../components/Links'
 import { categories } from '../data/categories'
 import { NotFoundPage } from './NotFoundPage'
+import { PortfolioImage } from '../components/PortfolioImage'
 
 export function CategoryPage() {
   const { category: id } = useParams()
@@ -18,7 +19,7 @@ export function CategoryPage() {
       <div className="category-projects">
         {category.projects.map((project) => {
           const content = <>
-            <img src={project.image} width="443" height="528" alt="" className="project-cover" />
+            <PortfolioImage src={project.image} sizes="(max-width: 767px) calc(100vw - 32px), (max-width: 1199px) 45vw, 31vw" width="443" height="528" alt="" className="project-cover" />
             <h2 className="project-title">{project.title}</h2>
           </>
           return project.available
