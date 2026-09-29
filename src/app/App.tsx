@@ -13,7 +13,7 @@ function PageNavigation() {
     const category = categories.find((item) => pathname === `/work/${item.id}`)
     const project = projects.find((item) => pathname === `/projects/${item.slug}`)
     const name = category?.title ?? project?.title
-    document.title = name ? `${name} — Аня Лаврова` : pathname === '/' ? 'Аня Лаврова — дизайнер' : 'Страница не найдена — Аня Лаврова'
+    document.title = name ? `${name} — Аня Лаврова` : pathname === '/' ? 'Аня Лаврова — дизайнер' : 'Страница не найдена — Аня Лаврова'
     const target = hash ? document.getElementById(decodeURIComponent(hash.slice(1))) : null
     if (target) target.scrollIntoView({ behavior: 'instant' })
     else window.scrollTo({ top: 0, behavior: 'instant' })
@@ -23,7 +23,7 @@ function PageNavigation() {
 
 export function App() {
   return <>
-    <a className="skip-link" href="#main-content">Перейти к содержимому</a>
+    <a className="skip-link" href="#main-content">Перейти к&nbsp;содержимому</a>
     <PageNavigation />
     <Routes>
       <Route path="/" element={<HomePage />} />

@@ -5,9 +5,7 @@ import type { CategoryId } from '../../types/portfolio'
 import { GradientGrain } from '../../components/GradientGrain'
 
 export function WorkNavigation() {
-  const [hovered, setHovered] = useState<CategoryId | null>(null)
-  const [focused, setFocused] = useState<CategoryId | null>(null)
-  const active = hovered ?? focused
+  const [active, setActive] = useState<CategoryId>('special-projects')
 
   return (
     <nav id="work" aria-label="Направления работ" className="work-navigation">
@@ -23,10 +21,8 @@ export function WorkNavigation() {
             <li key={id} className={`work-item work-${id}`}>
               <Link
                 to={`/work/${id}`}
-                onMouseEnter={() => setHovered(id)}
-                onMouseLeave={() => setHovered(null)}
-                onFocus={() => setFocused(id)}
-                onBlur={() => setFocused(null)}
+                onMouseEnter={() => setActive(id)}
+                onFocus={() => setActive(id)}
                 className="work-link"
               >
                 <span>{title}</span><span className="work-marker" aria-hidden="true" />

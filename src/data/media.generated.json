@@ -1,15 +1,15 @@
 {
   "/media/projects/category-web-ministry.png": {
-    "src": "/media/projects/category-web-ministry-443.webp",
-    "srcSet": "/media/projects/category-web-ministry-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/category-web-ministry-1329.webp",
+    "srcSet": "/media/projects/category-web-ministry-443.webp 443w, /media/projects/category-web-ministry-886.webp 886w, /media/projects/category-web-ministry-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/category-web-volna.png": {
-    "src": "/media/projects/category-web-volna-443.webp",
-    "srcSet": "/media/projects/category-web-volna-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/category-web-volna-1329.webp",
+    "srcSet": "/media/projects/category-web-volna-443.webp 443w, /media/projects/category-web-volna-886.webp 886w, /media/projects/category-web-volna-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/volna-first.jpeg": {
     "src": "/media/projects/volna-first-1440.webp",
@@ -24,64 +24,64 @@
     "height": 676
   },
   "/media/projects/special-marathon.png": {
-    "src": "/media/projects/special-marathon-443.webp",
-    "srcSet": "/media/projects/special-marathon-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/special-marathon-1329.webp",
+    "srcSet": "/media/projects/special-marathon-443.webp 443w, /media/projects/special-marathon-886.webp 886w, /media/projects/special-marathon-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/special-lesson.png": {
-    "src": "/media/projects/special-lesson-443.webp",
-    "srcSet": "/media/projects/special-lesson-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/special-lesson-1329.webp",
+    "srcSet": "/media/projects/special-lesson-443.webp 443w, /media/projects/special-lesson-886.webp 886w, /media/projects/special-lesson-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/product-onboarding.png": {
-    "src": "/media/projects/product-onboarding-443.webp",
-    "srcSet": "/media/projects/product-onboarding-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/product-onboarding-1329.webp",
+    "srcSet": "/media/projects/product-onboarding-443.webp 443w, /media/projects/product-onboarding-886.webp 886w, /media/projects/product-onboarding-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/product-redesign.png": {
-    "src": "/media/projects/product-redesign-443.webp",
-    "srcSet": "/media/projects/product-redesign-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/product-redesign-1329.webp",
+    "srcSet": "/media/projects/product-redesign-443.webp 443w, /media/projects/product-redesign-886.webp 886w, /media/projects/product-redesign-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/posters-experiments.png": {
-    "src": "/media/projects/posters-experiments-443.webp",
-    "srcSet": "/media/projects/posters-experiments-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/posters-experiments-1329.webp",
+    "srcSet": "/media/projects/posters-experiments-443.webp 443w, /media/projects/posters-experiments-886.webp 886w, /media/projects/posters-experiments-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/posters-parties.png": {
-    "src": "/media/projects/posters-parties-443.webp",
-    "srcSet": "/media/projects/posters-parties-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/posters-parties-1329.webp",
+    "srcSet": "/media/projects/posters-parties-443.webp 443w, /media/projects/posters-parties-886.webp 886w, /media/projects/posters-parties-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/merch-lovemachine.png": {
-    "src": "/media/projects/merch-lovemachine-443.webp",
-    "srcSet": "/media/projects/merch-lovemachine-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/merch-lovemachine-1329.webp",
+    "srcSet": "/media/projects/merch-lovemachine-443.webp 443w, /media/projects/merch-lovemachine-886.webp 886w, /media/projects/merch-lovemachine-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/merch-charmer.png": {
-    "src": "/media/projects/merch-charmer-443.webp",
-    "srcSet": "/media/projects/merch-charmer-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/merch-charmer-1329.webp",
+    "srcSet": "/media/projects/merch-charmer-443.webp 443w, /media/projects/merch-charmer-886.webp 886w, /media/projects/merch-charmer-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/animation-sites.png": {
-    "src": "/media/projects/animation-sites-443.webp",
-    "srcSet": "/media/projects/animation-sites-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/animation-sites-1329.webp",
+    "srcSet": "/media/projects/animation-sites-443.webp 443w, /media/projects/animation-sites-886.webp 886w, /media/projects/animation-sites-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/animation-love.png": {
-    "src": "/media/projects/animation-love-443.webp",
-    "srcSet": "/media/projects/animation-love-443.webp 443w",
-    "width": 443,
-    "height": 528
+    "src": "/media/projects/animation-love-1329.webp",
+    "srcSet": "/media/projects/animation-love-443.webp 443w, /media/projects/animation-love-886.webp 886w, /media/projects/animation-love-1329.webp 1329w",
+    "width": 1329,
+    "height": 1584
   },
   "/media/projects/volna/186-250.jpeg": {
     "src": "/media/projects/volna/186-250-1440.webp",

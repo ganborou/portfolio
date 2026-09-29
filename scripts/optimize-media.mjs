@@ -11,11 +11,13 @@ for (const asset of assets) {
   if (asset.sourcePath.endsWith('.svg')) continue
   const original = await readFile(asset.sourcePath)
   const metadata = await sharp(original).metadata()
-  const widths = [...new Set([480, 960, Math.min(metadata.width, 1440)].filter((width) => width <= metadata.width))].sort((a, b) => a - b)
+  const isCover = /^\/media\/projects\/[^/]+\.png$/.test(asset.originalPublicPath)
+  const targetWidths = isCover ? [443, 886, 1329, metadata.width] : [480, 960, Math.min(metadata.width, 1440)]
+  const widths = [...new Set(targetWidths.filter((width) => width <= metadata.width))].sort((a, b) => a - b)
   const variants = []
   for (const width of widths) {
     const outputPath = asset.publicPath.replace(/\.webp$/, `-${width}.webp`)
-    const output = await sharp(original).resize({ width, withoutEnlargement: true }).webp({ quality: 88, effort: 5 }).toBuffer()
+    const output = await sharp(original).resize({ width, withoutEnlargement: true }).webp(isCover ? { lossless: true, effort: 5 } : { quality: 88, effort: 5 }).toBuffer()
     await mkdir(dirname(`public${outputPath}`), { recursive: true })
     await writeFile(`public${outputPath}`, output)
     variants.push({ src: outputPath, width })
